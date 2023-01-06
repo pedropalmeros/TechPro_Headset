@@ -123,3 +123,41 @@ img{
 }
 
 /** ICONS **/
+
+.iconos{
+    padding: var(--mainGap) 0;
+}
+
+@media (min-width: 768px){
+    .iconos{
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.icono{
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+.icono img{ 
+    margin-bottom: calc( var(--mainGap) / 2);
+    width: 5rem;
+}
+
+.icono:last-of-type{
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .icono{
+        margin: 0;
+    }
+}
+
+.icono h3{
+    color: var(--primaryColor);
+    margin-top: calc( var(--mainGap) / 2);
+    text-transform: uppercase;
+}
