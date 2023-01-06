@@ -1,4 +1,11 @@
 :root{
+    --primaryColor: #1073ba;
+    --secondaryColor: #00DA55;
+    --auxiliarGray: #3B3B3B;
+    --auxiliarWhite: #FFFFFF;
+    --auxiliaryNoir: #1F1F1F;
+    --auxiliarLightGray: #e1e1e1;
+
     --mainFont: 'Roboto', sans-serif;
     --secondaryFont: 'Lato', sans-serif;
 }
