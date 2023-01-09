@@ -264,7 +264,13 @@ img{
     margin-bottom: 2rem;
     min-height: 20rem;
     padding-left:4rem;
+    transition-duration: 0.3s;
+    transition-property: transform background-size;
+}
 
+.modelo:hover{
+    background-size: 30rem;
+    transform: scale(1.1);
 }
 
 .modelo:first-of-type{
