@@ -379,9 +379,6 @@ img{
     
 }
 
-.formulario{
-
-}
 
 .formulario input[type="text"]{
     padding: 1rem;
@@ -397,8 +394,14 @@ img{
     font-weight: 900;
     padding: 2rem;
     text-transform: uppercase;
-    width: 100%;
-
-    
+    width: 100%;    
 }
 
+.footer p{
+    color: var(--primaryColor);
+    font-family: var(--secondaryFont);
+    font-size: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
